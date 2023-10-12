@@ -1,3 +1,5 @@
+# Python 3.8+
+
 from generate_big_prime import big_prime_generator
 from random import randrange
 from math import sqrt
@@ -16,7 +18,7 @@ class RSA_instance:
 
 
 def main():
-    # Generate a big prime of about 50 bits
+    # Generate a big prime of about 128 bits
     n = 128
     bpg = big_prime_generator(n)
     p = bpg.generate()
